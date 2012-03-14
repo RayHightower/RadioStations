@@ -9,5 +9,22 @@
 #import <Foundation/Foundation.h>
 
 @interface RadioStation : NSObject
+{
+    NSString *name;
+    double frequency;
+    NSUInteger band;
+}
+
++(double)minAMFrequency;
++(double)maxAMFrequency;
++(double)minFMFrequency;
++(double)maxFMFrequency;
+
+-(id)initWithName:(NSString *)newName
+      atFrequency:(double)newFrequency;
+-(NSString *)name;
+-(void)setName:(NSString *)newName;
+-(double)frequency;
+-(void)setFrequency:(double)newFrequency;
 
 @end
