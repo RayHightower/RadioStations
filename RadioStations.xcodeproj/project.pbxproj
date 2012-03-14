@@ -15,6 +15,7 @@
 		6FC1B8B215105A6100D501A9 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1B8B115105A6100D501A9 /* CalculatorAppDelegate.m */; };
 		6FC1B8B515105A6100D501A9 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1B8B415105A6100D501A9 /* CalculatorViewController.m */; };
 		6FC1B8B815105A6100D501A9 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC1B8B615105A6100D501A9 /* CalculatorViewController.xib */; };
+		6FC1B8C015105E5A00D501A9 /* RadioStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1B8BF15105E5A00D501A9 /* RadioStation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		6FC1B8A115105A6100D501A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6FC1B8A315105A6100D501A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FC1B8A515105A6100D501A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6FC1B8A915105A6100D501A9 /* RadioStations-Info.plist */ = {isa = PBXFileReference; path = "RadioStations-Info.plist"; sourceTree = "<group>"; };
+		6FC1B8A915105A6100D501A9 /* RadioStations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadioStations-Info.plist"; sourceTree = "<group>"; };
 		6FC1B8AB15105A6100D501A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FC1B8AD15105A6100D501A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FC1B8AF15105A6100D501A9 /* RadioStations-Prefix.pch */ = {isa = PBXFileReference; path = "RadioStations-Prefix.pch"; sourceTree = "<group>"; };
-		6FC1B8B015105A6100D501A9 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		6FC1B8AF15105A6100D501A9 /* RadioStations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadioStations-Prefix.pch"; sourceTree = "<group>"; };
+		6FC1B8B015105A6100D501A9 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		6FC1B8B115105A6100D501A9 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
-		6FC1B8B315105A6100D501A9 /* CalculatorViewController.h */ = {isa = PBXFileReference; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		6FC1B8B315105A6100D501A9 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		6FC1B8B415105A6100D501A9 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		6FC1B8B715105A6100D501A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalculatorViewController.xib; sourceTree = "<group>"; };
+		6FC1B8BE15105E5A00D501A9 /* RadioStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioStation.h; sourceTree = "<group>"; };
+		6FC1B8BF15105E5A00D501A9 /* RadioStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioStation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				6FC1B8B415105A6100D501A9 /* CalculatorViewController.m */,
 				6FC1B8B615105A6100D501A9 /* CalculatorViewController.xib */,
 				6FC1B8A815105A6100D501A9 /* Supporting Files */,
+				6FC1B8BE15105E5A00D501A9 /* RadioStation.h */,
+				6FC1B8BF15105E5A00D501A9 /* RadioStation.m */,
 			);
 			path = RadioStations;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				6FC1B8AE15105A6100D501A9 /* main.m in Sources */,
 				6FC1B8B215105A6100D501A9 /* CalculatorAppDelegate.m in Sources */,
 				6FC1B8B515105A6100D501A9 /* CalculatorViewController.m in Sources */,
+				6FC1B8C015105E5A00D501A9 /* RadioStation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
